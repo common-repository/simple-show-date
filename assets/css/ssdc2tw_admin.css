@@ -1,0 +1,76 @@
+
+/* === Simple Show Date by Come2theweb ==== */
+.ssdc2tw_row {
+	display: flex;
+}
+
+.ssdc2tw_row {
+  display: flex;
+}
+.ssdc2tw_left {
+  width: 50%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.ssdc2tw_right {
+  width: 50%;
+  background: #e0ebee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.ssdc2tw_right h3 {
+  margin: 0 0 7px;
+  padding: 10px;
+  background: #ebf6f9;
+  border: 1px #b4d1d9 solid;
+  box-sizing: border-box;
+  color: #47595e;
+}
+.ssdc2tw_date_style {
+  padding: 8px 0;
+  border-bottom: 1px #ccc solid; align-items: center;
+  display: flex;
+}
+.ssdc2tw_date_style span:first-child {
+	padding: 5px;
+	background: #ececec;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 170px;
+}
+.ssdc2tw_date_style span:nth-child(2) {
+	padding: 0 10px;
+	font-weight: bold;
+	width: 200px;
+}
+
+.ssdc2tw_date_style span:nth-child(3) {
+  background: #868686;
+  padding: 5px;
+  color: #fff;
+  width: calc(100% - 370px);
+  text-align: center;
+}
+.ssdc2tw_date_customstyle{  padding: 8px 0;
+  display: flex;
+}
+.ssdc2tw_date_customstyle span:first-child {
+	padding: 5px;
+	background: #ececec;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 157px;
+}
+.ssdc2tw_date_customstyle span:nth-child(2) {
+  background: #868686;
+  padding: 5px;
+  color: #fff;
+  width:calc(100% - 176px);
+  text-align: center;
+}
+.ssdc2tw_customhint table td{padding:10px; border:1px #ccc solid;}
+
+.ssdc2tw_footer {
+	padding: 30px 0 0 0;
+}
